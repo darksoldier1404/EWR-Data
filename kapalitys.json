@@ -1,39 +1,37 @@
-{
-    "excalibur": {
-        "kr_name": "엑스칼리버",
-        "en_name": "Excalibur",
-        "stats": {
-            "health": 275,
-            "shield": 275,
-            "armor": 175,
-            "energy": 100,
-            "speed": 1.15
-        },
-        "abilitys": {
-            "passives": [{
-                "name": "Excalibur's Aura",
-                "context": "공격력 10% 증가\n 근접 공격속도 15% 증가"
-            }]
-        },
-        "ability1": {
-            "kr_name": "슬래쉬",
-            "en_name": "Slash",
-            "context": "damage = 125\nduration = 0\n maxTarget = 10\n requireEnergy = 25\n 최대 거리 = 10미터\n 다중 대상에게 피해"
-        },
-        "ability2": {
-            "kr_name": "블라인드",
-            "en_name": "Blind",
-            "context": "duration = 3\n requireEnergy = 30\n rangeX = 7\n rangeY = 5\n rangeZ = 7\n 해당 범위만큼 주변 적 슬로우"
-        },
-        "ability3": {
-            "kr_name": "스워드 피어싱",
-            "en_name": "Sword Piercing",
-            "context": "damage = 375\n requireEnergy = 55\n rangeX = 8\n rangeY = 7\n rangeZ = 8\n 범위 내에 있는 적에게 피해"
-        },
-        "ability4": {
-            "kr_name": "데스마크",
-            "en_name": "Death Mark",
-            "context": "damage = 65\n requireEnergy = 100\n range = 30\n on: 30미터이내에 바라보고있는 적을 마킹합니다.\n off: 마킹된 모든 적에게 피해를 줍니다."
-        }
+[{
+    "kr_name": "엑스칼리버",
+    "en_name": "Excalibur",
+    "icon_url": "https://pdpd.site/assets/img/Excalibur_Icon.png",
+    "stats": {
+        "health": 275,
+        "shield": 275,
+        "armor": 175,
+        "energy": 100,
+        "speed": 1.15
+    },
+    "passive1": {
+        "kr_name": "엑스칼리버의 아우라",
+        "en_name": "Excalibur's Aura",
+        "context": "공격력 10% 증가\n 근접 공격속도 15% 증가"
+    },
+    "ability1": {
+        "kr_name": "슬래쉬",
+        "en_name": "Slash",
+        "context": "damage = 125\nduration = 0\n maxTarget = 10\n requireEnergy = 25\n 최대 거리 = 10미터\n 다중 대상에게 피해"
+    },
+    "ability2": {
+        "kr_name": "블라인드",
+        "en_name": "Blind",
+        "context": "duration = 3\n requireEnergy = 30\n rangeX = 7\n rangeY = 5\n rangeZ = 7\n 해당 범위만큼 주변 적 슬로우"
+    },
+    "ability3": {
+        "kr_name": "스워드 피어싱",
+        "en_name": "Sword Piercing",
+        "context": "damage = 375\n requireEnergy = 55\n rangeX = 8\n rangeY = 7\n rangeZ = 8\n 범위 내에 있는 적에게 피해"
+    },
+    "ability4": {
+        "kr_name": "데스마크",
+        "en_name": "Death Mark",
+        "context": "damage = 65\n requireEnergy = 100\n range = 30\n on: 30미터이내에 바라보고있는 적을 마킹합니다.\n off: 마킹된 모든 적에게 피해를 줍니다."
     }
-}
+}]
